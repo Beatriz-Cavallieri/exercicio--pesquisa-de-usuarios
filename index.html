@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa de usuários</h1>
+        <form action="">
+            <input type="text" name="search">
+            <button>Pesquisar</button>
+        </form>
+    </header>
+    <div class="results">
+        <h2 id="title-users">Nenhum usuário</h2>
+        <ul id="user-list"></ul>
+    </div>
+    <div class="statistics">
+        <h2 id="title-stats">Estatísticas - vazio</h2>
+        <ul id="statistics-list">
+            <li class="stats fem hidden">Gênero feminino: <span class="stats-number"></span></li>
+            <li class="stats masc hidden">Gênero masculino: <span class="stats-number"></span></li>
+            <li class="stats average hidden">Idade média: <span class="stats-number"></span></li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
