@@ -86,6 +86,7 @@ function search(text) {
         initializeCounters()
         findUsers(text)
         ageAverage = ageSum / searchResultUsers.length
+        ageAverage = ageAverage.toFixed(1)
         showResults()
     }
 }
