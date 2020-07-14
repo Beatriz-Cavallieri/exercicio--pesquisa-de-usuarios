@@ -20,24 +20,6 @@ header h1 {
   margin: 0 auto;
 }
 
-input,
-button {
-  border: none;
-  font-weight: bold;
-  font-size: 17px;
-  height: 30px;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-button {
-  border: 1px solid black;
-}
-
-input {
-  border-bottom: 1px solid black;
-}
-
 .hidden {
   visibility: hidden;
 }
@@ -53,6 +35,20 @@ form {
 
 form input {
   width: 40%;
+  border-bottom: 1px solid black;
+}
+
+form input,
+form button {
+  font-weight: bold;
+  font-size: 17px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+form button {
+  border: 1px solid black;
 }
 
 .results {
